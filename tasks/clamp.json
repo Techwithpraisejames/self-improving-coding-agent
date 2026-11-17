@@ -1,0 +1,5 @@
+{
+  "name": "clamp",
+  "prompt": "Implement clamp(value, low, high). Return low when value is below low, high when value is above high, otherwise value.",
+  "tests": "from solution import clamp\nassert clamp(3, 0, 10) == 3\nassert clamp(-2, 0, 10) == 0\nassert clamp(12, 0, 10) == 10\nassert clamp(0, 0, 10) == 0\nprint('All four assertions passed')\n"
+}
